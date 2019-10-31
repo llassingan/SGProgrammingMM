@@ -1,0 +1,11 @@
+disp("Trapesium");
+disp("");
+b = input('Panjang bawah : ');
+t = input('Tinggi : ');
+a = input('Panjang atas : ');
+selisih = b-a;
+miring = sqrt(t*t + selisih*selisih);
+Keliling = a+b+t+miring;
+Luas = (a+b)*t*0.5;
+disp("Keliling Trapesium : "+ Keliling);
+disp("Luas Trapesium : "+Luas);
