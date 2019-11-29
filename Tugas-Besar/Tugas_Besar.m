@@ -1,4 +1,4 @@
-disp("Mari Mebuat Array!")
+disp("Mari Membuat Array!")
 disp("");
 b = input('Banyak baris : ');
 k = input('Banyak kolom : ');
